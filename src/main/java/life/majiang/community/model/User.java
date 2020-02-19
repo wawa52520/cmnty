@@ -3,7 +3,7 @@ package life.majiang.community.model;
 public class User {
     private Integer id;
     private String name;
-    private String accountID;
+    private String accountId;
     private String token;
     private Long gmtCreate;
     private Long gmtModified;
@@ -24,12 +24,12 @@ public class User {
         this.name = name;
     }
 
-    public String getAccountID() {
-        return accountID;
+    public String getAccountId() {
+        return accountId;
     }
 
-    public void setAccountID(String accountID) {
-        this.accountID = accountID;
+    public void setAccountId(String accountId) {
+        this.accountId = accountId;
     }
 
     public String getToken() {
